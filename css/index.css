@@ -1,0 +1,95 @@
+/*Import*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto&display=swap');
+/*VARIABLES*/
+:root{
+    /* Palette */
+    --primary: #001C55;
+    --secondary: #0A2472;
+    --tertiary: #0C488D;
+    --light: #FDFDFD;
+    --dark: #000;
+    /* Font Sizes */
+    --text-xxl: 4.8em;
+    --text-xl: 3.6em;
+    --text-lg: 2.4em;
+    --text-md: 2.0em;
+    --text-sm: 1.6em;
+    --text-xs: 1.4em;
+    /* Spacing */
+    --sp-xxl: 12rem;
+    --sp-xl: 8rem;
+    --sp-lg: 5rem;
+    --sp-md: 3.2rem;
+    --sp-sm: 1.6rem;
+    --sp-xs: 0.8rem;
+}
+/*NORMALIZE*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 62.5%;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    font-size: var(--text-md);
+    color: var(--light);
+}
+/* BODY */
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--text-sm);
+    color: var(--light);
+    background-color: var(--secondary);
+}
+/* HEADER */
+.conteiner {
+    width: auto;
+}
+.navbar {
+    background-color: var(--primary);
+    padding: var(--sp-md);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--sp-xs)
+}
+.navbar .navbar__link{
+    display: flex;
+    text-align: center;
+}
+.navbar .menu{
+    display: inline-block;
+}
+.navbar .menu .menu__item{
+    display: inline-block;
+}
+.navbar .menu .menu__link{
+    display: inline-block;
+    color: var(--light);
+    display: flex;
+    justify-content: space-between;
+    font-size: var(--text-xs);
+}
+/* MAIN*/
+main{
+    margin-left: var(--sp-lg);
+    margin-right: var(--sp-lg);
+}
+img{
+    display: inline;
+}
+.definicion{
+    margin: var(--sp-xs);
+    padding: var(--sp-xs);
+    justify-content: center;
+    background-color: var(--tertiary);
+}
+.clasificacion{
+    display: inline-block;
+}
