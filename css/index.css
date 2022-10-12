@@ -42,7 +42,7 @@ a{
 /* BODY */
 body{
     font-family: 'Poppins', sans-serif;
-    font-size: var(--text-sm);
+    font-size: 20px;
     color: var(--light);
     background-color: var(--secondary);
 }
@@ -51,13 +51,12 @@ body{
     width: auto;
 }
 .navbar {
+    padding: 10px;
     background-color: var(--primary);
-    padding: var(--sp-md);
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: var(--sp-xs)
+    align-items: end;
 }
 .navbar .navbar__link{
     display: flex;
@@ -86,10 +85,22 @@ img{
 }
 .definicion{
     margin: var(--sp-xs);
-    padding: var(--sp-xs);
     justify-content: center;
     background-color: var(--tertiary);
+    flex-direction: row;
+    width: 100vw;
 }
 .clasificacion{
-    display: inline-block;
+    flex-direction: column;
+}
+.definicion__titulo{
+    font-size: 48px;
+    align-items: flex-start;
+}
+.definicion__contenido{
+    font-size: 24px;
+}
+#cuerpo{
+    display: flex;
+    flex-direction: row;
 }
