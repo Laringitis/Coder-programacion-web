@@ -1,6 +1,9 @@
 /*Import*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto&display=swap');
 /*VARIABLES*/
+html {
+    font-size: 62.5%;
+}
 :root{
     /* Palette */
     --primary: #001C55;
@@ -29,20 +32,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-html{
-    font-family: 62.5%;
-}
-ul{
+ul {
     list-style-type: none;
 }
-a{
-    font-size: var(--text-md);
-    color: var(--light);
-}
 /* BODY */
-body{
+body {
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
     color: var(--light);
     background-color: var(--secondary);
 }
@@ -51,56 +46,61 @@ body{
     width: auto;
 }
 .navbar {
-    padding: 10px;
+    padding: var(--sp-xs);
     background-color: var(--primary);
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: end;
 }
-.navbar .navbar__link{
+.navbar .navbar__link {
     display: flex;
     text-align: center;
 }
 .navbar .menu{
     display: inline-block;
 }
-.navbar .menu .menu__item{
+.navbar .menu .menu__item {
     display: inline-block;
 }
-.navbar .menu .menu__link{
+.navbar .menu .menu__link {
     display: inline-block;
     color: var(--light);
     display: flex;
     justify-content: space-between;
-    font-size: 20px;
+    font-size: var(--text-xs);
 }
 /* MAIN*/
-main{
-    margin-left: var(--sp-lg);
-    margin-right: var(--sp-lg);
+main {
+    width: 100vw;
+
 }
-img{
+img {
     display: inline;
 }
-.definicion{
+#cuerpo {
     margin: var(--sp-xs);
-    justify-content: center;
+}
+.definicion {
     background-color: var(--tertiary);
-    flex-direction: row;
+    height: fit-content;
     width: 100vw;
 }
-.clasificacion{
-    flex-direction: column;
-}
-.definicion__titulo{
-    font-size: 48px;
-    align-items: flex-start;
+.definicion__titulo {
+    font-size: var(--text-xxl);
 }
 .definicion__contenido{
-    font-size: 24px;
+    font-size: var(--text-lg);
 }
-#cuerpo{
+.clasificacion{
     display: flex;
+    justify-content: space-around;
+
     flex-direction: row;
+    flex-wrap: wrap;
+}
+.clasificacion__box {
+    margin: var(--sp-xs);
+    width: 35rem;
+    background-color: var(--tertiary);
 }
