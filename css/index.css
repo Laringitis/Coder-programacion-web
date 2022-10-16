@@ -38,7 +38,19 @@ ul {
 /* BOOTSTRAP DESREBOOT*/
 body {
     font-family: none;
-
+}
+.nav-tabs{
+    --bs-nav-tabs-border-color: none;
+    --bs-nav-tabs-border-width: none;
+}
+nav-items{
+    --bs-nav-link-color: none;
+    --bs-nav-link-hover-color: none;
+    --bs-nav-link-disabled-color: none;
+}
+a{
+    color: none;
+    text-decoration: none;
 }
 /* BODY */
 body {
@@ -92,20 +104,20 @@ img {
     height: fit-content;
     width: 100vw;
 }
-.definicion__titulo {
+ {
     font-size: var(--text-xxl);
 }
-.definicion__contenido{
+{
     font-size: var(--text-lg);
 }
-.clasificacion{
+{
     display: flex;
     justify-content: space-around;
 
     flex-direction: row;
     flex-wrap: wrap;
 }
-.clasificacion__box {
+ {
     margin: var(--sp-xs);
     width: 35rem;
     background-color: var(--tertiary);
