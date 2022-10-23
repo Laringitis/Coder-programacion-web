@@ -6,10 +6,10 @@ html {
 }
 :root{
     /* Palette */
-    --primary: #001C55;
-    --secondary: #0A2472;
-    --tertiary: #0C488D;
-    --light: #FDFDFD;
+    --primary:  #0e0f26;
+    --secondary: #100850;
+    --tertiary: #390193;
+    --light: #fffcff;
     --dark: #000;
     /* Font Sizes */
     --text-xxl: 4.8em;
@@ -38,13 +38,11 @@ ul {
 /* BODY */
 body {
     font-family: 'Poppins', sans-serif;
-    color: var(--light);
     background-color: var(--secondary);
+    color: var(--light);
 }
 /* HEADER */
-.conteiner {
-    width: auto;
-}
+
 .navbar {
     padding: var(--sp-xs);
     background-color: var(--primary);
@@ -53,41 +51,48 @@ body {
     justify-content: space-between;
     align-items: end;
 }
-.navbar .navbar__link {
+.menu{
     display: flex;
-    text-align: center;
-}
-.navbar .menu{
-    display: inline-block;
-}
-.navbar .menu .menu__item {
-    display: inline-block;
-}
-.navbar .menu .menu__link {
-    display: inline-block;
-    color: var(--light);
-    display: flex;
+    flex-direction: row;
     justify-content: space-between;
+}
+.menu__link {
+    text-decoration: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: var(--light);
+    flex-direction: row;
     font-size: var(--text-xs);
 }
+a:hover{
+    background-color: #5f23a5;
+}
+.logo{
+    height: 3rem;
+}
 /* MAIN*/
-main {
-    width: 100vw;
-
+main{
+    padding: 3rem;
 }
-img {
-    display: inline;
+.banner__box{
+    background-color: #313133;
+    display: flex;
+    justify-content: center;
 }
-#cuerpo {
-    margin: var(--sp-xs);
+#introduccion{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+.pregunta{
+    justify-items: center;
+    font-size: 3.6em;
 }
 .definicion {
     background-color: var(--tertiary);
-    height: fit-content;
-    width: 100vw;
 }
 .definicion__titulo {
-    font-size: var(--text-xxl);
+    padding-bottom: 1rem;
 }
 .definicion__contenido{
     font-size: var(--text-lg);
@@ -95,7 +100,6 @@ img {
 .clasificacion{
     display: flex;
     justify-content: space-around;
-
     flex-direction: row;
     flex-wrap: wrap;
 }
