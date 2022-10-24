@@ -44,8 +44,8 @@ a{
     color: none;
     text-decoration: none;
 }
-a:hover{
-    background-color: var(--quaternary);
+ol, ul{
+    padding-left: none;
 }
 /* BODY */
 body {
@@ -68,4 +68,8 @@ img {
 .definicion {
     background-color: var(--tertiary);
     width: 100vw;
+}
+/* ANIMACIONES */
+a:hover{
+    background-color: var(--quaternary);
 }
