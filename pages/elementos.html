@@ -5,32 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Los elementos</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href= "../css/index.css">
 </head>
 <body id="top">
     <header class="conteiner">
-        <nav class= "navbar">
-            <a class= "navbar__link" href="#Top">
-                <img src="./img/logo.png" alt="logo bola">
-            </a>
-            <ul class= "menu">
-                <li class= "menu__item">
-                    <a class="menu__link" href="../index.html">CARTA ASTRAL</a>
-                </li>
-                <li class= "menu__item">
-                    <a class="menu__link" href="./elementos.html">ELEMENTOS</a>
-                </li>
-                <li class= "menu__item">
-                    <a class="menu__link" href="./signos.html">SIGNOS</a>
-                </li>
-                <li class= "menu__item">
-                    <a class="menu__link" href="./planetas.html">PLANETAS</a>
-                </li>
-                <li class= "menu__item">
-                    <a class="menu__link" href= "./casas.html">CASAS</a>
-                </li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-md navbar-dark" style="background-color: var(--primary);">
+            <div class="container-fluid mx-3">
+              <a class="navbar-brand" href="../index.html">
+                <img src="../img/logo.png" alt="Logo" height="40px">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active link-light ms-4 fs-5" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link link-light ms-4 fs-5" href="./casas.html">Casas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link link-light ms-4 fs-5" href="./signos.html">Signos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link link-light ms-4 fs-5" href="./elementos.html">Elementos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link link-light ms-4 fs-5" href="./planetas.html">Planetas</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
     <main id="cuerpoelementos">
         <section class="definicion">

@@ -11,6 +11,7 @@ html {
     --tertiary: #0C488D;
     --light: #FDFDFD;
     --dark: #000;
+    --quaternary: #397eff;
     /* Font Sizes */
     --text-xxl: 4.8em;
     --text-xl: 3.6em;
@@ -42,6 +43,9 @@ body {
 a{
     color: none;
     text-decoration: none;
+}
+a:hover{
+    background-color: var(--quaternary);
 }
 /* BODY */
 body {
