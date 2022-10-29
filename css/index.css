@@ -6,11 +6,12 @@ html {
 }
 :root{
     /* Palette */
-    --primary:  #0e0f26;
-    --secondary: #100850;
-    --tertiary: #390193;
-    --light: #fffcff;
+    --primary: #001C55;
+    --secondary: #0A2472;
+    --tertiary: #0C488D;
+    --light: #FDFDFD;
     --dark: #000;
+    --quaternary: #397eff;
     /* Font Sizes */
     --text-xxl: 4.8em;
     --text-xl: 3.6em;
@@ -69,6 +70,10 @@ a:hover{
 }
 .logo{
     height: 3rem;
+}
+/* ANIMACIONES */
+a:hover{
+    background-color: var(--quaternary);
 }
 /* MAIN*/
 main{
