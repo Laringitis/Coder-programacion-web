@@ -1,0 +1,27 @@
+.navbar {
+    padding: var(--sp-xs);
+    background-color: var(--primary);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menu__link {
+    text-decoration: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: var(--light);
+    flex-direction: row;
+    font-size: var(--text-xs);
+}
+a:hover{
+    background-color: #5f23a5;
+}
+.logo{
+    height: 3rem;
+}
