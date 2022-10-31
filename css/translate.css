@@ -28,21 +28,6 @@ body {
   background-color: #FE5D9F;
 }
 
-.menu {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.menu__link {
-  text-decoration: none;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  color: var(--light);
-  flex-direction: row;
-  font-size: var(--text-xs);
-}
-
 .nav-link:hover {
   background-color: #C8FFBE;
 }
@@ -56,6 +41,12 @@ body {
   margin-left: 8rem;
   margin-right: 8rem;
 }
+#casas .definicion__titulo {
+  font-size: 4.8em;
+}
+#casas .definicion__texto {
+  font-size: 2.4em;
+}
 #casas .clasificacion {
   margin-left: 3.2rem;
   margin-right: 3.2rem;
@@ -65,6 +56,15 @@ body {
   padding: 0.8rem;
   background-color: #fdecf3;
   color: #FE5D9F;
+}
+#casas .clasificacion h2 {
+  font-size: 2.4em;
+}
+#casas .clasificacion p {
+  font-size: 2em;
+}
+#casas .clasificacion li {
+  font-size: 2em;
 }
 
 @media (min-width: 769px) {
@@ -93,6 +93,12 @@ body {
 #signos .definicion {
   margin-left: 8rem;
   margin-right: 8rem;
+}
+#signos .definicion__titulo {
+  font-size: 4.8em;
+}
+#signos .definicion__contenido {
+  font-size: 2.4em;
 }
 #signos .clasificacion {
   margin-left: 3.2rem;

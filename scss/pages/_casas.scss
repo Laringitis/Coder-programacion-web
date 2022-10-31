@@ -2,7 +2,13 @@
     .definicion{
         margin-left: $sp-xl;
         margin-right: $sp-xl;
+        &__titulo{
+            font-size: $text-xxl;
         }
+        &__texto{
+            font-size: $text-lg;
+        }
+    }
     .clasificacion{
         margin-left: $sp-md;
         margin-right: $sp-md;
@@ -11,9 +17,17 @@
             padding: $sp-xs;
             background-color: $tertiary;
             color: $secondary;
-
+        }
+        h2{
+            font-size: $text-lg;
+        }
+        p{
+            font-size: $text-md;
+        }
+        li{
+            font-size: $text-md;
+        }
     }
-}
 }
 @media (min-width: 769px) {
     #casas{

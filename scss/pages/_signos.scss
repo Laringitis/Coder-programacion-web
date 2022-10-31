@@ -2,7 +2,13 @@
     .definicion{
         margin-left: $sp-xl;
         margin-right: $sp-xl;
+        &__titulo{
+            font-size: $text-xxl;
         }
+        &__contenido{
+            font-size: $text-lg;
+        }
+    }
     .clasificacion{
         margin-left: $sp-md;
         margin-right: $sp-md;
