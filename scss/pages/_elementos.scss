@@ -1,0 +1,50 @@
+#elementos{
+    .definicion{
+        margin-left: $sp-xl;
+        margin-right: $sp-xl;
+        &__titulo{
+            font-size: $text-xxl;
+        }
+        &__contenido{
+            font-size: $text-lg;
+        }
+    }
+    .clasificacion{
+        margin-left: $sp-md;
+        margin-right: $sp-md;
+        gap: $sp-xs;
+        &__box{
+            padding: $sp-xs;
+            background-color: $tertiary;
+            color: $secondary;
+        }
+        &__titulo{
+            font-size: $text-xl;
+        }
+        &__contenido{
+            font-size: $text-md;
+        }
+    }
+}
+@media (min-width: 769px) {
+    #elementos{
+        .clasificacion{
+            display: grid;
+            grid-template-areas:
+            "box-1"
+            "box-2"
+            "box-3"
+            "box-4";
+        }
+    }
+}
+@media (min-width: 1200px) {
+    #elementos{
+        .clasificacion{
+            display: grid;
+            grid-template-areas:
+            "box-1 box-2"
+            "box-3 box-4";
+        }
+    }
+}

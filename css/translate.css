@@ -79,6 +79,45 @@ body {
     grid-template-areas: "box-1 box-2 box-3" "box-4 box-5 box-6" "box-7 box-8 -box-9" "box-10 -box-11 box-12";
   }
 }
+#elementos .definicion {
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
+#elementos .definicion__titulo {
+  font-size: 4.8em;
+}
+#elementos .definicion__contenido {
+  font-size: 2.4em;
+}
+#elementos .clasificacion {
+  margin-left: 3.2rem;
+  margin-right: 3.2rem;
+  gap: 0.8rem;
+}
+#elementos .clasificacion__box {
+  padding: 0.8rem;
+  background-color: #fdecf3;
+  color: #FE5D9F;
+}
+#elementos .clasificacion__titulo {
+  font-size: 3.6em;
+}
+#elementos .clasificacion__contenido {
+  font-size: 2em;
+}
+
+@media (min-width: 769px) {
+  #elementos .clasificacion {
+    display: grid;
+    grid-template-areas: "box-1" "box-2" "box-3" "box-4";
+  }
+}
+@media (min-width: 1200px) {
+  #elementos .clasificacion {
+    display: grid;
+    grid-template-areas: "box-1 box-2" "box-3 box-4";
+  }
+}
 #index section {
   display: flex;
 }
@@ -125,6 +164,48 @@ body {
 }
 @media (min-width: 1200px) {
   #signos .clasificacion {
+    display: grid;
+    grid-template-areas: "box-1 box-2 box-3" "box-4 box-5 box-6" "box-7 box-8 -box-9" "box-10 -box-11 box-12";
+  }
+}
+#planetas .definicion {
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
+#planetas .definicion__titulo {
+  font-size: 4.8em;
+}
+#planetas .definicion__contenido {
+  font-size: 2.4em;
+}
+#planetas .definicion__contenido--signo {
+  color: #F686BD;
+}
+#planetas .clasificacion {
+  margin-left: 3.2rem;
+  margin-right: 3.2rem;
+  gap: 0.8rem;
+}
+#planetas .clasificacion__box {
+  padding: 0.8rem;
+  background-color: #fdecf3;
+  color: #FE5D9F;
+}
+#planetas .clasificacion__titulo {
+  font-size: 3.6em;
+}
+#planetas .clasificacion__contenido {
+  font-size: 2em;
+}
+
+@media (min-width: 769px) {
+  #planetas .clasificacion {
+    display: grid;
+    grid-template-areas: "box-1 box-2" "box-3  box-4" "box-5 box-6" "box-7 box-8" "box-9 box-10 " "box-11 box-12";
+  }
+}
+@media (min-width: 1200px) {
+  #planetas .clasificacion {
     display: grid;
     grid-template-areas: "box-1 box-2 box-3" "box-4 box-5 box-6" "box-7 box-8 -box-9" "box-10 -box-11 box-12";
   }
