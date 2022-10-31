@@ -12,6 +12,12 @@
             background-color: $tertiary;
             color: $secondary;
         }
+        &__titulo{
+            font-size: $text-xl;
+        }
+        &__contenido{
+            font-size: $text-md;
+        }
     }
 }
 @media (min-width: 769px) {
