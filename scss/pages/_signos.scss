@@ -26,6 +26,15 @@
         }
     }
 }
+@media (max-width: 768px ){
+    #planetas{
+        .clasificacion{
+            &__box{
+                margin-bottom: $sp-md
+            }
+        }
+    }
+}
 @media (min-width: 769px) {
     #signos{
         .clasificacion{

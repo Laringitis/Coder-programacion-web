@@ -29,7 +29,7 @@ body {
 }
 
 .nav-link:hover {
-  background-color: #C8FFBE;
+  background-color: #cb13db;
 }
 
 .logo {
@@ -67,6 +67,11 @@ body {
   font-size: 2em;
 }
 
+@media (max-width: 768px) {
+  #planetas .clasificacion__box {
+    margin-bottom: 3.2rem;
+  }
+}
 @media (min-width: 769px) {
   #casas .clasificacion {
     display: grid;
@@ -106,6 +111,11 @@ body {
   font-size: 2em;
 }
 
+@media (max-width: 768px) {
+  #planetas .clasificacion__box {
+    margin-bottom: 3.2rem;
+  }
+}
 @media (min-width: 769px) {
   #elementos .clasificacion {
     display: grid;
@@ -156,6 +166,11 @@ body {
   font-size: 2em;
 }
 
+@media (max-width: 768px) {
+  #planetas .clasificacion__box {
+    margin-bottom: 3.2rem;
+  }
+}
 @media (min-width: 769px) {
   #signos .clasificacion {
     display: grid;
@@ -178,9 +193,6 @@ body {
 #planetas .definicion__contenido {
   font-size: 2.4em;
 }
-#planetas .definicion__contenido--signo {
-  color: #F686BD;
-}
 #planetas .clasificacion {
   margin-left: 3.2rem;
   margin-right: 3.2rem;
@@ -197,17 +209,25 @@ body {
 #planetas .clasificacion__contenido {
   font-size: 2em;
 }
+#planetas .clasificacion__contenido--signo {
+  color: #cb13db;
+}
 
+@media (max-width: 768px) {
+  #planetas .clasificacion__box {
+    margin-bottom: 3.2rem;
+  }
+}
 @media (min-width: 769px) {
   #planetas .clasificacion {
     display: grid;
-    grid-template-areas: "box-1 box-2" "box-3  box-4" "box-5 box-6" "box-7 box-8" "box-9 box-10 " "box-11 box-12";
+    grid-template-areas: "box-1 box-2" "box-3 box-4" "box-5 box-6" "box-7 box-8" "box-9 box-10";
   }
 }
 @media (min-width: 1200px) {
   #planetas .clasificacion {
     display: grid;
-    grid-template-areas: "box-1 box-2 box-3" "box-4 box-5 box-6" "box-7 box-8 -box-9" "box-10 -box-11 box-12";
+    grid-template-areas: "box-1 box-2 box-3" "box-4 box-5 box-6" "box-7 box-8 -box-9" "box-10";
   }
 }
 
