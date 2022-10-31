@@ -1,7 +1,7 @@
 {
   "name": "carta_astral",
   "version": "1.0.0",
-  "description": "",
+  "description": "Este sitio web busca introducir a las personas a las astrologia y a una carta astral",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
