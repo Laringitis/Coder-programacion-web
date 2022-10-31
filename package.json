@@ -1,11 +1,10 @@
 {
   "name": "carta_astral",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include path scss/index.scss css/index.css",
-    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -17,8 +16,7 @@
     "url": "https://github.com/Laringitis/Coder-programacion-web/issues"
   },
   "homepage": "https://github.com/Laringitis/Coder-programacion-web#readme",
-  "description": "",
-  "devDependencies": {
-    "nodemon": "^2.0.20"
+  "dependencies": {
+    "hexo-cli": "^4.3.0"
   }
 }

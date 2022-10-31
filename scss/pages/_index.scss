@@ -1,0 +1,15 @@
+#index{
+    section{
+        display: flex;
+    }
+        .banner{
+
+            width: 100vw;
+            align-self: flex-start;
+        }
+    div{
+        #introduccion{
+            margin-top: $sp-sm;
+        }
+    }
+}

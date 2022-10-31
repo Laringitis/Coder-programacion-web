@@ -1,10 +1,5 @@
 .navbar {
-    padding: var(--sp-xs);
-    background-color: var(--primary);
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
+background-color: $secondary;
 }
 .menu{
     display: flex;
@@ -19,8 +14,8 @@
     flex-direction: row;
     font-size: var(--text-xs);
 }
-a:hover{
-    background-color: #5f23a5;
+.nav-link:hover{
+    background-color: $quaternary;
 }
 .logo{
     height: 3rem;

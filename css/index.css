@@ -1,7 +1,7 @@
-/*Import*/
+/* Import
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto&display=swap');
 /*VARIABLES*/
-html {
+/* html {
     font-size: 62.5%;
 }
 :root{
@@ -10,7 +10,7 @@ html {
     --secondary: #0A2472;
     --tertiary: #0C488D;
     --light: #FDFDFD;
-    --dark: #000;
+    --dark: #000; */
     /* Font Sizes */
     --text-xxl: 4.8em;
     --text-xl: 3.6em;
@@ -25,9 +25,9 @@ html {
     --sp-md: 3.2rem;
     --sp-sm: 1.6rem;
     --sp-xs: 0.8rem;
-}
+/* } */
 
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -37,13 +37,13 @@ ul {
   list-style-type: none;
 }
 /* BODY */
-body {
+/* body {
   font-family: "Poppins", sans-serif;
   background-color: var(--secondary);
   color: var(--light);
-}
+} */
 /* HEADER */
-.conteiner {
+/* .conteiner {
     width: auto;
 }
 .navbar {
@@ -54,15 +54,6 @@ body {
     justify-content: space-between;
     align-items: end;
 }
-.navbar .navbar__link {
-    display: flex;
-    text-align: center;
-}
-.navbar .menu{
-    display: inline-block;
-}
-.navbar .menu .menu__item {
-    display: inline-block;
 }
 .navbar .menu .menu__link {
     display: inline-block;
@@ -70,9 +61,9 @@ body {
     display: flex;
     justify-content: space-between;
     font-size: var(--text-xs);
-}
+} */
 /* MAIN*/
-main {
+/* main {
     width: 100vw;
 
 }
@@ -104,4 +95,4 @@ img {
     margin: var(--sp-xs);
     width: 35rem;
     background-color: var(--tertiary);
-}
+} */ 
