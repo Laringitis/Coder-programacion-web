@@ -1,22 +1,25 @@
 {
   "name": "carta_astral",
   "version": "1.0.0",
-  "description": "Este sitio web busca introducir a las personas a las astrologia y a una carta astral",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "sass --watch scss/index.scss css/translate.css"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Laringitis/Coder-programacion-web.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Laringitis/Coder-programacion-web/issues"
   },
   "homepage": "https://github.com/Laringitis/Coder-programacion-web#readme",
-  "dependencies": {
-    "hexo-cli": "^4.3.0"
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "sass": "^1.55.0"
   }
 }
