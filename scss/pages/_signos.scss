@@ -2,8 +2,14 @@
     .definicion{
         margin-left: $sp-xl;
         margin-right: $sp-xl;
+        margin-top: $sp-md;
+        margin-bottom: $sp-md;
+        display: flex;
+        flex-direction: column;
         &__titulo{
-            font-size: $text-xxl;
+            font-size: $text-xxxl;
+            text-decoration: $quaternary wavy underline;
+            justify-content: center;
         }
         &__contenido{
             font-size: $text-lg;
@@ -12,17 +18,21 @@
     .clasificacion{
         margin-left: $sp-md;
         margin-right: $sp-md;
-        gap: $sp-xs;
+        margin-bottom: $sp-md;
+        gap: $sp-md;
         &__box{
             padding: $sp-xs;
             background-color: $tertiary;
             color: $secondary;
+            .signos__img{
+                width: 200px;
         }
         &__titulo{
             font-size: $text-xl;
         }
         &__contenido{
             font-size: $text-md;
+        }
         }
     }
 }
