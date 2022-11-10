@@ -21,6 +21,7 @@
         }
         &__titulo{
             font-size: $text-xl;
+            display: inline;
         }
         &__contenido{
             font-size: $text-md;

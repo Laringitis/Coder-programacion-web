@@ -221,6 +221,7 @@ body {
 }
 #planetas .clasificacion__titulo {
   font-size: 3.6em;
+  display: inline;
 }
 #planetas .clasificacion__contenido {
   font-size: 2em;
