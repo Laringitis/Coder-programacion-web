@@ -1,18 +1,28 @@
 #planetas{
     .definicion{
-        margin-left: $sp-xl;
-        margin-right: $sp-xl;
+        margin-left: $sp-xxl;
+        margin-right: $sp-xxl;
+        &__img{
+            display: flex;
+            justify-content: center;
+        }
         &__titulo{
-            font-size: $text-xxl;
+            margin-top: $sp-sm;
+            display: flex;
+            justify-content: center;
+            h1{
+                font-size: $text-xxl;
+            }
         }
         &__contenido{
             font-size: $text-lg;
-
+            margin-bottom: $sp-sm;
             }
         }
     .clasificacion{
         margin-left: $sp-md;
         margin-right: $sp-md;
+        margin-bottom: $sp-md;
         gap: $sp-md;
         &__box{
             padding: $sp-xs;
