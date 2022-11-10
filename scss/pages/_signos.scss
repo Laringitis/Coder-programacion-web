@@ -6,9 +6,11 @@
         margin-bottom: $sp-md;
         display: flex;
         flex-direction: column;
+        &__img{
+            justify-content: center;
+        }
         &__titulo{
             font-size: $text-xxxl;
-            text-decoration: $quaternary wavy underline;
             justify-content: center;
         }
         &__contenido{
@@ -20,24 +22,28 @@
         margin-right: $sp-md;
         margin-bottom: $sp-md;
         gap: $sp-md;
+        .signos_img{
+            display: inline-block;
+        }
         &__box{
             padding: $sp-xs;
             background-color: $tertiary;
             color: $secondary;
-            .signos__img{
-                width: 200px;
         }
         &__titulo{
             font-size: $text-xl;
         }
         &__contenido{
-            font-size: $text-md;
-        }
+            font-size: $text-lg;
+            &--extra{
+                font-size: $text-lg;
+                color: $quaternary;
+            }
         }
     }
 }
-@media (max-width: 768px ){
-    #planetas{
+@media (max-width: 768px){
+    #signos{
         .clasificacion{
             &__box{
                 margin-bottom: $sp-md
@@ -68,6 +74,7 @@
             "box-4 box-5 box-6"
             "box-7 box-8 -box-9"
             "box-10 -box-11 box-12";
+            gap: $sp-sm;
         }
     }
 }

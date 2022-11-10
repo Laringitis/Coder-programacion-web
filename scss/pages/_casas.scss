@@ -14,7 +14,7 @@
         margin-right: $sp-md;
         gap: $sp-xs;
         .box{
-            padding: $sp-xs;
+            padding: $sp-sm;
             background-color: $tertiary;
             color: $secondary;
         }
@@ -26,13 +26,14 @@
         }
         li{
             font-size: $text-md;
+            color: $quaternary;
         }
     }
 }
 @media (max-width: 768px ){
-    #planetas{
+    #casas{
         .clasificacion{
-            &__box{
+            .box{
                 margin-bottom: $sp-md
             }
         }
